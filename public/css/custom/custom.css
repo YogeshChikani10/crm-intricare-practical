@@ -1,0 +1,90 @@
+
+.btn-primary {
+    color: #fff;
+    background-color: #293766;
+    border-color: #293766;
+    box-shadow: none;
+}
+
+/* card herader button adjustment */
+.card-header > .card-tools {
+    float: right;
+    margin-right: 0rem;
+}
+
+/* text editer coomon hight */
+.note-editable {
+    height: 133px;
+}
+
+.add-item-line-btn {
+    border: none;
+    background-color: #293766;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+.add-item-line-btn:hover {
+    background-color: #293766;
+}
+
+.item-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ced4da;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    width: 24%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.item-list .item {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.item-list .item:hover {
+    background-color: #f8f9fa;
+}
+
+.logo-name {
+    color: #293766;
+    font-weight: 700;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #293766;
+    border-color: #293766;
+}
+
+.sidebar-light-teal .nav-sidebar > .nav-item > .nav-link.active {
+    background-color: #293766;
+    color: #fff;
+}
+
+.card-teal:not(.card-outline) > .card-header {
+    background-color: #293766;
+}
+
+a {
+    color: #293766;
+    text-decoration: none;
+    background-color: transparent;
+} 
+
+.save-contact{
+    margin-left: 5px;
+}
+
+.filter-button {
+    margin-top: 8px;
+}
